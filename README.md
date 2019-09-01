@@ -27,6 +27,10 @@ If you'd like this to run in background, please add -d option.
 When it comes to cleaning up including volume to reset data,
 please use the command following.
 
+You can use DynamoDB Local with the endpoint of http://localhost:8000.
+You can access dynamodb-admin GUI with http://localhost:8001.
+
+
 ```console
 $ docker-compose down -v
 ```
